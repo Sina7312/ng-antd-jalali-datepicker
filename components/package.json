@@ -1,0 +1,43 @@
+{
+  "name": "ng-antd-jalali-datepicker",
+  "version": "9.3.0",
+  "license": "MIT",
+  "description": "An enterprise-class UI components based on Ant Design and Angular",
+  "ng-update": {
+    "migrations": "./schematics/migration.json",
+    "packageGroup": [
+      "ng-zorro-antd"
+    ]
+  },
+  "keywords": [
+    "ant",
+    "design",
+    "angular",
+    "ui",
+    "framework",
+    "frontend"
+  ],
+  "homepage": "https://ng.ant.design",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NG-ZORRO/ng-zorro-antd"
+  },
+  "bugs": {
+    "url": "https://github.com/NG-ZORRO/ng-zorro-antd/issues"
+  },
+  "dependencies": {
+    "@angular/cdk": "^10.0.0",
+    "@ant-design/icons-angular": "10.0.0-beta.0",
+    "date-fns": "^2.10.0",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "peerDependencies": {
+    "@angular/animations": "^10.0.0",
+    "@angular/common": "^10.0.0",
+    "@angular/forms": "^10.0.0",
+    "@angular/core": "^10.0.0",
+    "@angular/platform-browser": "^10.0.0",
+    "@angular/router": "^10.0.0",
+    "rxjs": "~6.5.5"
+  }
+}
