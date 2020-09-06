@@ -5,8 +5,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": ".",
+    "paths": {
+      "ng-antd-jalali-datepicker/*": ["./*"]
+    }
   },
-  "include": [
-    "./**/*.ts"
-  ]
+  "include": ["./**/*.ts"]
 }
